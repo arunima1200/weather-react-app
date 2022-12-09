@@ -23,6 +23,9 @@ ul li:active{
 }
 
 .link{
-    color: white;
+    /* color: white; */
     text-decoration: none;
+}
+.active{
+    color: white;
 }
