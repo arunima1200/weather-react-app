@@ -1,0 +1,25 @@
+.header{
+    position: relative;
+
+}
+.head, .home-btn, .msg{
+    position: absolute;
+}
+
+.head, .msg{
+    margin-left: 16%;
+}
+.home-btn{
+    right: 0;
+    margin: 12px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.msg{
+   margin-top: 8vh;
+}
