@@ -1,25 +1,18 @@
 .header{
-    position: relative;
-
-}
-.head, .home-btn, .msg{
-    position: absolute;
-}
-
-.head, .msg{
-    margin-left: 16%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 10px;
+    align-items: center;
+    height: 10vh;
 }
 .home-btn{
-    right: 0;
-    margin: 12px;
-    margin-top: 15px;
-    cursor: pointer;
-    background-color: purple;
-    color: white;
     padding: 4px;
+    height: 30px;
     border-radius: 3px;
-}
+    color: white;
+    background-color: purple;
+    cursor: pointer;
 
-.msg{
-   margin-top: 8vh;
 }
