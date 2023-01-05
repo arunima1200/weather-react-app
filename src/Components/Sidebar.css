@@ -1,42 +1,14 @@
-.sidebar{    
-    width: 15%;
+.sidebar{
+    display: flex;
+    flex-direction: column;
     height: 100vh;
-    background-color: purple;
+    background-color: #472978;
 }
 
-.side-list{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-li{
-    border: 1px solid white;
-    padding: 15px;
-    font-size: 16px;
-    font-weight: 600;
-    text-align: center;
-}
-
-.link{
+.link {
     color: white;
+    text-align: center;
+    width: 10;
+    padding: 30px;
     text-decoration: none;
-}
-
-.active{
-    color: black;
-    background-color: yellow;
-    text-decoration: none;
-    margin-left: -3vw;
-    padding: 2.4vw;
-}
-
-.active-city{ 
-    padding-left: 4.2vw;
-    padding-right: 4.2vw;   
-}
-
-.active-home{
-    padding-left: 3.9vw;
-    padding-right: 3.9vw;
 }
