@@ -1,0 +1,36 @@
+.city-modal {
+    min-height: 15vh;
+    max-height: 50vh;
+    width: 30vw;
+    position: absolute ;
+    left: 35vw;
+    top: 25vh;
+    z-index: 100;
+    background-color: white;
+    margin: 5px;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+.city-modal::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.cities-container {
+    padding: 5px;
+}
+
+.city-modal-header{
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+}
+
+.search-city {
+    width: 270px;
+    margin: 5px;
+}

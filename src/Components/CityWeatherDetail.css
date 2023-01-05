@@ -1,0 +1,19 @@
+.city-weather-detail-container {
+    border: 1px solid whitesmoke;
+    margin: 10px;
+    padding: 5px;
+    min-width: 55vw;
+}
+
+.city-weather-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city-weather-detail {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
